@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Playwrite GB S', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    min-height: 100vh;
+}
+
+.post{
+    background-color: white;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.post-header{
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    
+    
+
+    
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+.top-icon{
+    font-size: 24px;
+   
+    margin: 8px 10px 5px 250px
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    align-items: flex-start;
+}
+
+.titles h1{
+    font-size:  11px;
+    margin: 0;
+    font-weight: bold;
+}
+.titles h2{
+    font-size: 11px;
+    margin: 0;
+    color: #8e8e8e;
+}
+
+.post-img img{
+   width: 100%;
+   height: auto;
+}
+
+.post-body{
+    padding: 10px;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.left-icons{
+    display: flex;
+    gap: 10px;
+
+}
+.post-icons i{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #262626;
+}
+
+p{
+    font-size: 12px;
+    color: #262626;
+}
